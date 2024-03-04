@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.6138830532212884) 35%, rgba(0,212,255,1) 100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items horizontally (center) */
+    justify-content: center; /* Align items vertically (center) */
+    width: 80%;
+    margin: 50px auto;
+    background-color: #ffffff4d;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+#logo {
+    margin-bottom: 20px; /* Add some space between the image and the heading */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    background-color: #ffffff4d;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+.oleo-script-regular {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .oleo-script-bold {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+#developer{
+    font-family: "Oleo Script", system-ui;
+    font-weight: 100;
+    font-style: normal;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items horizontally (center) */
+    justify-content: center; /* Align items vertically (center) */
+    width: 80%;
+    margin: 50px auto;
+    background-color: #ffffff4d;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* padding: 40px; */
+}
