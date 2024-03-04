@@ -17,9 +17,8 @@ Online Python Code Runner is a web application that allows users to run Python c
 
 1. Open the [Online Python Code Runner](https://pyonline.onrender.com) web app in your web browser.
 2. Enter your Python code into the textarea provided.
-3. Optionally, enter any input required for your Python program (if applicable).
-4. Click the "Run Code" button to execute the Python code.
-5. View the output of the executed Python code in the designated output area.
+3. Click the "Run Code" button to execute the Python code.
+4. View the output of the executed Python code in the designated output area.
 
 ## Technologies Used
 
