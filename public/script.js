@@ -1,6 +1,13 @@
+// Initialize CodeMirror on the textarea
+const editor = CodeMirror.fromTextArea(document.getElementById('code'), {
+    lineNumbers: true,
+    mode: 'python',
+    theme: 'monokai',
+    matchBrackets: true
+});
+
 function runCode() {
-    const code = document.getElementById('code').value;
-    // const input = document.getElementById('input').value;
+    const code = editor.getValue(); // Use CodeMirror's getValue method to get the code
 
     fetch('/runcode', {
         method: 'POST',
@@ -12,5 +19,9 @@ function runCode() {
     .then(response => response.text())
     .then(result => {
         document.getElementById('output').innerText = result;
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        document.getElementById('output').innerText = 'An error occurred: ' + error;
     });
 }
