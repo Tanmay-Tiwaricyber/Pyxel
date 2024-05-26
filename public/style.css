@@ -2,8 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.6138830532212884) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(0, 0, 0);
 }
 
 .container {
@@ -11,11 +10,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.61388305322
     flex-direction: column;
     align-items: center; /* Align items horizontally (center) */
     justify-content: center; /* Align items vertically (center) */
-    width: 80%;
+    width: 600px;
+    height: 500px;
     margin: 50px auto;
     background-color: #ffffff4d;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.945);
     padding: 40px;
 }
 
@@ -25,12 +25,17 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.61388305322
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
+/* Pyxel heading css code */
 
+  
 textarea {
     width: 100%;
-    height: 200px;
+    height: 500px;
     padding: 10px;
     margin-top: 20px;
     border: 1px solid #ccc;
@@ -41,7 +46,7 @@ textarea {
 }
 
 button {
-    width: 100%;
+    
     padding: 10px;
     margin-top: 20px;
     border: none;
@@ -60,10 +65,11 @@ button:hover {
 #output {
     margin-top: 20px;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #e6e3e3;
+    box-shadow: #333;
+    box-shadow: 0 0 20px rgb(10 10 10);
     font-size: 16px;
-    color: #333;
+    color: #ffffff;
 }
 .oleo-script-regular {
     font-family: "Oleo Script", system-ui;
@@ -81,16 +87,37 @@ button:hover {
     font-family: "Oleo Script", system-ui;
     font-weight: 100;
     font-style: normal;
+    color: white;
 }
 .container2 {
     display: flex;
     flex-direction: column;
     align-items: center; /* Align items horizontally (center) */
-    justify-content: center; /* Align items vertically (center) */
-    width: 80%;
+    width: 600px;
     margin: 50px auto;
     background-color: #ffffff4d;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(238, 58, 58, 0.719);
     /* padding: 40px; */
 }
+
+.CodeMirror {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* margin-top: 10px; */
+    height: 600px;
+    width: 500px;
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Styles for smaller screens */
+    .container, .container2 {
+      width: 70%; /* Make containers take full width on mobile */
+    }
+    .CodeMirror {
+      height: 40%;
+        width: 80%; /* Adjust CodeMirror width for smaller screens */
+    }
+  }
+  
