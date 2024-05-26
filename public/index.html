@@ -7,25 +7,35 @@
     <link rel="shortcut icon" href="code.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Kaushan+Script&family=Major+Mono+Display&family=Oleo+Script:wght@400;700&family=Sedgwick+Ave+Display&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <!-- CodeMirror CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/theme/monokai.min.css">
 </head>
 <body>
     <div class="container">
-        <img id="logo" src="code.png" alt="" height="100px">
+        <img id="logo" src="code.png" alt="" height="80px">
         <h1>Pyxel</h1>
         <textarea id="code" placeholder="Enter your Python code here"></textarea>
-        <!-- <textarea id="input" placeholder="Enter input (if any)"></textarea> -->
         <button onclick="runCode()">Run Code</button>
-        <h1>output</h1>
+        <h1>Output</h1>
         <div id="output"></div>
     </div>
 
     <div class="container2">
-            <h2 id="developer">Dev - Silent Programmer</h2> 
-            
-            <a href="http://github.com/Tanmay-Tiwaricyber"><img src="github.png" alt="" height="40px"></a> <a href="http://github.com/Tanmay-Tiwaricyber/PyOnline"><img src="star.png" alt="" height="40px"></a>
+        <h2 id="developer">Dev - Silent Programmer</h2> 
+        <!-- <a href="http://github.com/Tanmay-Tiwaricyber"><img src="github.png" alt="" height="40px"></a><a href="http://github.com/Tanmay-Tiwaricyber/PyOnline"><img src="star.png" alt="" height="40px"></a> -->
     </div>
+
+    <!-- CodeMirror JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/python/python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/addon/edit/matchbrackets.min.js"></script>
 
     <script src="script.js"></script>
 </body>
