@@ -3,9 +3,9 @@
 **Instantly write, execute, and visualize your Python code in a user-friendly web environment. Pyxel empowers both beginners and seasoned programmers to experiment, learn, and collaborate seamlessly. ✨**
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/Tanmay-Tiwaricyber/PyOnline.svg)](https://github.com/Tanmay-Tiwaricyber/PyOnline/issues)
-[![GitHub stars](https://img.shields.io/github/stars/Tanmay-Tiwaricyber/PyOnline.svg)](https://github.com/Tanmay-Tiwaricyber/PyOnline/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Tanmay-Tiwaricyber/PyOnline.svg)](https://github.com/Tanmay-Tiwaricyber/PyOnline/network)
+[![GitHub issues](https://img.shields.io/github/issues/Tanmay-Tiwaricyber/Pyxel.svg)](https://github.com/Tanmay-Tiwaricyber/Pyxel/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Tanmay-Tiwaricyber/Pyxel.svg)](https://github.com/Tanmay-Tiwaricyber/Pyxel/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Tanmay-Tiwaricyber/Pyxel.svg)](https://github.com/Tanmay-Tiwaricyber/Pyxel/network)
 
 **Feature-Rich Playground: 🚀**
 
