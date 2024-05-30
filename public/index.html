@@ -6,6 +6,7 @@
     <title>Pyxel</title>
     <link rel="shortcut icon" href="code.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
@@ -19,18 +20,17 @@
 </head>
 <body>
     <div class="container">
-        <img id="logo" src="code.webp" alt="" height="80px">
+        <img id="logo" src="code.png" alt="" height="80px">
         <h1>Pyxel</h1>
         <textarea id="code" placeholder="Enter your Python code here"></textarea>
         <button onclick="runCode()">Run Code</button>
         <h1>Output</h1>
         <div id="output"></div>
     </div>
-
-    <div class="container2">
-        <h2 id="developer">Dev - Silent Programmer</h2> 
-        <!-- <a href="http://github.com/Tanmay-Tiwaricyber"><img src="github.png" alt="" height="40px"></a><a href="http://github.com/Tanmay-Tiwaricyber/PyOnline"><img src="star.png" alt="" height="40px"></a> -->
-    </div>
+    <center>
+        <button class="glow-on-hover" type="button">Dev - Silent Programmer</button>
+    </center>
+    
 
     <!-- CodeMirror JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.js"></script>
